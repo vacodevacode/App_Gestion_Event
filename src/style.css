@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181414;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #00AAF5;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #00AAF5 3px solid;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.create-event-form {
+  background: #fff;
+  padding: 50px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(134, 131, 131, 0.1);
+}
+
+.create-event-form div {
+  margin-bottom: 10px;
+}
+
+.create-event-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.create-event-form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.create-event-form button {
+  display: inline-block;
+  background: #353535;
+  color: #fff;
+  padding: 8px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.event-list {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.event h2 {
+  margin: 0 0 10px;
+}
+
+.event p {
+  margin: 0 0 5px;
+}
+
+.participant-list {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.participant-list h2 {
+  margin: 0 0 15px;
+}
+
+.participant-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.participant-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+}
